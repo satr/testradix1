@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: python-flask
+  name: testradix1
 spec:
   environments:
     - name: dev
