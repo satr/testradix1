@@ -1,5 +1,5 @@
 # Python flask playground
-
+ 
 Payground for personal test and use of the python flask functionalities.
 + test of the flask library for python
 + integration with Radix
