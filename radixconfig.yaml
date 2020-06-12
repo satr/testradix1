@@ -1,0 +1,22 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+metadata:
+  name: python-flask
+spec:
+  environments:
+    - name: dev
+      build:
+        from: master
+  components:
+    - name: app
+      src: "."
+      publicPort: http
+      ports:
+       - name: http
+         port: 8000
+      public: true
+      environmentConfig:
+        - environment: dev
+          replicas: 1
+          variables:
+            PYFLASK_VARIABLE_TRY: "python-flask-env-var-test"
