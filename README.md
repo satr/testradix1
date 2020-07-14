@@ -14,3 +14,5 @@ Shouldn't be used outside of testing purposes.
    
 + 08/2019: Set-up the project
 + 09/2019: Integration with Radix
+
+Changes 1
