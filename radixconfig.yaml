@@ -4,7 +4,10 @@ metadata:
   name: testradix1
 spec:
   environments:
-    - name: dev
+    - name: prod
+      build:
+        from: release
+    - name: qa
       build:
         from: master
   components:
