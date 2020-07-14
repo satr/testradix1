@@ -19,7 +19,11 @@ spec:
          port: 8000
       public: true
       environmentConfig:
-        - environment: dev
+        - environment: prod
           replicas: 1
+          variables:
+            PYFLASK_VARIABLE_TRY: "python-flask-env-var-test"
+        - environment: qa
+          replicas: 2
           variables:
             PYFLASK_VARIABLE_TRY: "python-flask-env-var-test"
