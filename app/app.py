@@ -115,5 +115,5 @@ def delete_book(isbn):
 
     
 if __name__ == '__main__':
-#    app.run(host="0.0.0.0", debug = True, port=8000) #need to use local host of your machine (cmd > ipconfig) #correct
-    app.run(host="127.0.0.1", debug = True, port=8000) #need to use local host of your machine (cmd > ipconfig)  #incorrect
+    app.run(host="0.0.0.0", debug = True, port=8000) #need to use local host of your machine (cmd > ipconfig) #correct
+#    app.run(host="127.0.0.1", debug = True, port=8000) #need to use local host of your machine (cmd > ipconfig)  #incorrect
